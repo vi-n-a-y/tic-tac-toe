@@ -1,3 +1,3 @@
 # Play Tic-Tac-Toe Game
 
-To play a Game  [Tic-Tac-Toe](https://github.com/vi-n-a-y/tic-tac-toe).
+To play a Game  [Tic-Tac-Toe](https://vi-n-a-y.github.io/tic-tac-toe/).
