@@ -2,7 +2,7 @@
   "name": "tic-tac-toe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/vi-n-a-y/tic-tac-toe",
+  "homepage": "https://vi-n-a-y.github.io/tic-tac-toe",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",
