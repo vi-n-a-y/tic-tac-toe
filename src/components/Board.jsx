@@ -20,6 +20,7 @@ const Board = () => {
     for (let logic of winnerLogic) {
       const [a, b, c] = logic;
       if (state[a] !== null && state[a] === state[b] && state[a] === state[c]) {
+        console.log(state[a]);
         return state[a];
       }
     }
