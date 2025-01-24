@@ -21,6 +21,7 @@ const Board = () => {
       const [a, b, c] = logic;
       if (state[a] !== null && state[a] === state[b] && state[a] === state[c]) {
         console.log(state[a]);
+         console.log(state[b]);
         return state[a];
       }
     }
