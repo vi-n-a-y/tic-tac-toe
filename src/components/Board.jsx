@@ -22,6 +22,7 @@ const Board = () => {
       if (state[a] !== null && state[a] === state[b] && state[a] === state[c]) {
         console.log(state[a]);
          console.log(state[b]);
+        console.log(state[c]);
         return state[a];
       }
     }
