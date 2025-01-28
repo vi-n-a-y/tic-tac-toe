@@ -36,6 +36,7 @@ const Board = () => {
   const isWinner = checkWinner();
   const isDraw = checkDraw();
   console.log(isWinner);
+   console.log(isDraw);
   const handleClick = (index) => {
     // console.log(index);
     if (state[index] !== null || isWinner || isDraw) {
