@@ -46,6 +46,7 @@ const Board = () => {
     const copyState = [...state];
     copyState[index] = isXTurn ? "X" : "0";
     setState(copyState);
+    console.log(copyState);
     setIsXTurn(!isXTurn);
   };
 
