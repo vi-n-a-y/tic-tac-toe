@@ -48,6 +48,7 @@ const Board = () => {
     setState(copyState);
     console.log(copyState);
     setIsXTurn(!isXTurn);
+    console.log(!isXTurn)
   };
 
   const resetGame = () => {
