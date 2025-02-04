@@ -53,6 +53,7 @@ const Board = () => {
 
   const resetGame = () => {
     setState(initialState);
+    console.log(setState(initialState));
     setIsXTurn(true);
   };
   return (
