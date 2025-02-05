@@ -18,6 +18,7 @@ const Board = () => {
       [2, 4, 6],
     ];
     for (let logic of winnerLogic) {
+      console.log(logic);
       const [a, b, c] = logic;
       if (state[a] !== null && state[a] === state[b] && state[a] === state[c]) {
         console.log(state[a]);
